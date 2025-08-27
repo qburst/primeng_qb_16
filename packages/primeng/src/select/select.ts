@@ -79,7 +79,7 @@ export const SELECT_VALUE_ACCESSOR: any = {
                 <svg data-p-icon="check" *ngIf="selected" [class]="cx('optionCheckIcon')" />
                 <svg data-p-icon="blank" *ngIf="!selected" [class]="cx('optionBlankIcon')" />
             </ng-container>
-            <span *ngIf="!template">{{ label ?? 'empty' }}</span>
+            <span *ngIf="!template">{{ label ?? 'empty1' }}</span>
             <ng-container *ngTemplateOutlet="template; context: { $implicit: option }"></ng-container>
         </li>
     `,
